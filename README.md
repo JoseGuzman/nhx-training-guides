@@ -1,1 +1,1 @@
-# simple-website
+# Neurohost Training website 
