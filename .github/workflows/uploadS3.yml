@@ -6,6 +6,9 @@ on:
   push:
     branches: [ main ]
 
+  # permits to run workflow manually
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
