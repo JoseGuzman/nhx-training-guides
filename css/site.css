@@ -1,5 +1,6 @@
 body{
-	color:#fff;	
+	/*#color:rgb(255, 238, 238);	*/
+	color:black
 	font-family: "proxima-nova-soft",sans-serif;
 }
 
@@ -111,9 +112,14 @@ body{
 	max-width:none;
 }
 
-
 .content{
 	padding-top:100px;	
+}
+
+.lesson{
+	padding-top:10px;	
+	padding:0px 0px;
+	font-size:16px;
 }
 
 h1{
