@@ -53,10 +53,19 @@ template {
 }
 a {
   background-color: transparent;
+  color: #337ab7;
+  text-decoration: none;
 }
 a:active,
 a:hover {
   outline: 0;
+}
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -1095,23 +1104,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-figure {
-  margin: 0;
 }
 img {
   vertical-align: middle;
