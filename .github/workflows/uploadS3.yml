@@ -1,5 +1,5 @@
 # Uploads site to S3 bucket 
-# See info here https://github.com/marketplace/actions/s3-sync 
+# See info here https://github.com/marketplace/actions/s3-sync
 name: Upload S3 bucket
 
 on:
@@ -17,10 +17,10 @@ jobs:
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
         with:
-          args: --acl public-read --follow-symlinks --delete 
-            --exclude '.git/*' 
-            --exclude '.github/*' 
-            --exclude '.gitignore' 
+          args: --acl public-read --follow-symlinks --delete
+            --exclude '.git/*'
+            --exclude '.github/*'
+            --exclude '.gitignore'
             --exclude 'README.md'
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
