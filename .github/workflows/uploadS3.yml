@@ -1,4 +1,4 @@
-# Uploads site to S3 bucket 
+# Uploads site to S3 bucket
 # See info here https://github.com/marketplace/actions/s3-sync
 name: Upload S3 bucket
 
