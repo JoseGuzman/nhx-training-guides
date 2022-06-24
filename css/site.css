@@ -4,6 +4,17 @@ body{
 	font-family: "proxima-nova-soft",sans-serif;
 }
 
+ul {
+
+	list-style-type: square; 
+	padding-top:0px 0px;
+	padding:0px 0px;
+	font-size:16px;
+}
+
+ul.a {
+	list-style-type: square; 
+}
 .overlay{
 	position:fixed;
 	background-color:rgba(0,0,0,0.75);
@@ -56,7 +67,7 @@ body{
 }
 
 .bg{
-	background-image:url(../img/bg-large.png);
+	/* background-image:url(../img/bg-large.png); */
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:bottom center;
@@ -68,7 +79,16 @@ body{
 	left:0px;
 	right:0px;
 	bottom:0px;
-	padding:10px;
+	padding:5px;
+	background-color:#0f466d;
+	color:#fff;
+}
+
+.header{
+	left:0px;
+	right:0px;
+	bottom:0px;
+	padding:5px;
 	background-color:#0f466d;
 	color:#fff;
 }
@@ -97,12 +117,13 @@ body{
 }
 
 .link{
+	padding-top:10px;
+	padding: 0px 0px;
 	text-decoration:none;
-	color:#fff;
+	color:rgb(255, 255, 255);
 	font-size:16px;
 	font-weight:bold;
-	margin-left:30px;
-	margin-top:20px;
+	margin-left:00px;
 	display:inline-block;
 }
 
@@ -127,7 +148,7 @@ h1{
 	border-bottom:1px #fff solid;	
 	padding:20px 0px;
 	max-width:371px;
-	font-size:40px;
+	font-size:30px;
 }
 
 p{
